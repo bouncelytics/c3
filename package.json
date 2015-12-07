@@ -1,5 +1,5 @@
 {
-  "name": "c3",
+  "name": "c3-bouncelytics",
   "version": "0.4.11-rc4",
   "description": "D3-based reusable chart library",
   "main": "c3.js",

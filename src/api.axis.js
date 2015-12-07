@@ -58,3 +58,9 @@ c3_chart_fn.axis.range = function (range) {
         };
     }
 };
+c3_chart_fn.axis.yTickFormat = function (yTickFormat) {
+    var $$ = this.internal, config = $$.config;
+    if (arguments.length) {
+        config.axis_y_tick_format = yTickFormat;
+    }
+};

@@ -6845,6 +6845,12 @@
             };
         }
     };
+    c3_chart_fn.axis.yTickFormat = function (yTickFormat) {
+        var $$ = this.internal, config = $$.config;
+        if (arguments.length) {
+            config.axis_y_tick_format = yTickFormat;
+        }
+    };
 
     c3_chart_fn.legend = function () {};
     c3_chart_fn.legend.show = function (targetIds) {
