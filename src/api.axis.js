@@ -70,3 +70,9 @@ c3_chart_fn.axis.xType = function (xType) {
         config.axis_x_type = xType;
     }
 };
+c3_chart_fn.axis.xCategories = function (xCategories) {
+    var $$ = this.internal, config = $$.config;
+    if (arguments.length) {
+        config.axis_x_categories = xCategories;
+    }
+};
