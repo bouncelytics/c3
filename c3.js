@@ -6952,6 +6952,10 @@
 
         this.internal.config.tooltip_onhide.call(this);
     };
+    c3_chart_fn.tooltip.contents = function (contents) {
+        var $$ = this.internal, config = $$.config;
+        config.tooltip_contents = contents;
+    };
 
     // Features:
     // 1. category axis
