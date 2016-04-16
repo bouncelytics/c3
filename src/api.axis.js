@@ -76,3 +76,9 @@ c3_chart_fn.axis.xCategories = function (xCategories) {
         config.axis_x_categories = xCategories;
     }
 };
+c3_chart_fn.axis.xTickCulling = function (xTickCulling) {
+    var $$ = this.internal, config = $$.config;
+    if (arguments.length) {
+        config.axis_x_tick_culling = xTickCulling;
+    }
+};

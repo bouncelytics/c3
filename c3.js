@@ -6863,6 +6863,12 @@
             config.axis_x_categories = xCategories;
         }
     };
+    c3_chart_fn.axis.xTickCulling = function (xTickCulling) {
+        var $$ = this.internal, config = $$.config;
+        if (arguments.length) {
+            config.axis_x_tick_culling = xTickCulling;
+        }
+    };
 
     c3_chart_fn.legend = function () {};
     c3_chart_fn.legend.show = function (targetIds) {
